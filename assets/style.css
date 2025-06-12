@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-box input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-box button {
+    padding: 10px 20px;
+    background: navy;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+.navbar {
+    background-color: purple;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-kanan a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu-kanan a:hover {
+    text-decoration: underline;
+}
